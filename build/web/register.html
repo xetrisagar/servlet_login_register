@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css"/>
+        <title>servlet app</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>Registration page</h1>
+            <br>
+        <form action="RegisterServlet" method="post">
+          
+            
+            <input type="text" name="name" required="required" placeholder="enter your name"/>
+            <br>
+           
+            <input type="email" name="email" required="required" placeholder="enter your email" />
+            <br>
+           
+            <input type="number" name="mobile" required="required" placeholder="enter your mobile number"/>
+            <br>
+          
+            <input type="password" name="password" required="required" placeholder="enter your password"/>
+            <br>
+            
+            
+            <input type="password" name="repassword" required="required" placeholder="enter repassword"/>
+            <br>
+            <input type="submit" value="register" class="btn-success"/>
+            <a href="login.html">CLICK TO LOGIN</a>
+        </form>
+        </div>   
+    </body>
+</html>
